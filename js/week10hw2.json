@@ -617,7 +617,7 @@
         },
         "y": {
             "field": "Value",
-            "type": "quantitative"
+            "type": "quantitative",
             "title": "Net losses ($ billion)"
         },
         "color": {
