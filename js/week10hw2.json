@@ -618,6 +618,7 @@
         "y": {
             "field": "Value",
             "type": "quantitative"
+            "title": "Net losses ($ billion)"
         },
         "color": {
             "field": "Type of Gambling",
