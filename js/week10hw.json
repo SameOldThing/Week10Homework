@@ -1,0 +1,692 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "values": [
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2001,
+                "Value": 22.9
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2002,
+                "Value": 22.9
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2003,
+                "Value": 23.5
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2004,
+                "Value": 23.9
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2005,
+                "Value": 24.2
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2006,
+                "Value": 24.2
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2007,
+                "Value": 23.3
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2008,
+                "Value": 23.8
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2009,
+                "Value": 22.5
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2010,
+                "Value": 23
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2011,
+                "Value": 23.8
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2012,
+                "Value": 23.5
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2013,
+                "Value": 23.5
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2014,
+                "Value": 24.8
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2015,
+                "Value": 25.4
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2016,
+                "Value": 24.9
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2017,
+                "Value": 25.8
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2018,
+                "Value": 25.9
+            },
+            {
+                "Types of gambling": "Any Gambling",
+                "Year": 2019,
+                "Value": 21.2
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2001,
+                "Value": 13.6
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2002,
+                "Value": 13.5
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2003,
+                "Value": 13.8
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2004,
+                "Value": 14.3
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2005,
+                "Value": 14.2
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2006,
+                "Value": 14.1
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2007,
+                "Value": 13.1
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2008,
+                "Value": 13.1
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2009,
+                "Value": 12.5
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2010,
+                "Value": 12.6
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2011,
+                "Value": 12.6
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2012,
+                "Value": 12.2
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2013,
+                "Value": 12.2
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2014,
+                "Value": 12.6
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2015,
+                "Value": 12.9
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2016,
+                "Value": 12.7
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2017,
+                "Value": 12.9
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2018,
+                "Value": 12.9
+            },
+            {
+                "Types of gambling": "Gambling Machines",
+                "Year": 2019,
+                "Value": 10.2
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2001,
+                "Value": 3
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2002,
+                "Value": 3.1
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2003,
+                "Value": 3.2
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2004,
+                "Value": 3.3
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2005,
+                "Value": 3.3
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2006,
+                "Value": 3.4
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2007,
+                "Value": 3.3
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2008,
+                "Value": 3.5
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2009,
+                "Value": 3.6
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2010,
+                "Value": 3.6
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2011,
+                "Value": 3.8
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2012,
+                "Value": 3.8
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2013,
+                "Value": 3.9
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2014,
+                "Value": 4.1
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2015,
+                "Value": 4.3
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2016,
+                "Value": 4.6
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2017,
+                "Value": 5.1
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2018,
+                "Value": 5.1
+            },
+            {
+                "Types of gambling": "Wagering",
+                "Year": 2019,
+                "Value": 4.6
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2001,
+                "Value": 3.9
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2002,
+                "Value": 3.8
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2003,
+                "Value": 3.9
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2004,
+                "Value": 3.7
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2005,
+                "Value": 4
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2006,
+                "Value": 4.1
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2007,
+                "Value": 4.1
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2008,
+                "Value": 4.3
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2009,
+                "Value": 4.3
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2010,
+                "Value": 4.4
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2011,
+                "Value": 4.7
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2012,
+                "Value": 4.7
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2013,
+                "Value": 4.8
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2014,
+                "Value": 5.6
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2015,
+                "Value": 5.5
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2016,
+                "Value": 5
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2017,
+                "Value": 5.3
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2018,
+                "Value": 4.9
+            },
+            {
+                "Types of gambling": "Casino",
+                "Year": 2019,
+                "Value": 3.5
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2001,
+                "Value": 2.2
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2002,
+                "Value": 2.3
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2003,
+                "Value": 2.3
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2004,
+                "Value": 2.3
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2005,
+                "Value": 2.3
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2006,
+                "Value": 2.3
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2007,
+                "Value": 2.4
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2008,
+                "Value": 2.5
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2009,
+                "Value": 1.8
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2010,
+                "Value": 2.1
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2011,
+                "Value": 2.3
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2012,
+                "Value": 2.4
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2013,
+                "Value": 2.2
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2014,
+                "Value": 2.2
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2015,
+                "Value": 2.3
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2016,
+                "Value": 2.1
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2017,
+                "Value": 2.2
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2018,
+                "Value": 2.6
+            },
+            {
+                "Types of gambling": "Lotteries",
+                "Year": 2019,
+                "Value": 2.6
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2001,
+                "Value": 0.2
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2002,
+                "Value": 0.2
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2003,
+                "Value": 0.3
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2004,
+                "Value": 0.3
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2005,
+                "Value": 0.3
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2006,
+                "Value": 0.3
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2007,
+                "Value": 0.3
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2008,
+                "Value": 0.3
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2009,
+                "Value": 0.3
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2010,
+                "Value": 0.3
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2011,
+                "Value": 0.4
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2012,
+                "Value": 0.4
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2013,
+                "Value": 0.4
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2014,
+                "Value": 0.4
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2015,
+                "Value": 0.4
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2016,
+                "Value": 0.4
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2017,
+                "Value": 0.4
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2018,
+                "Value": 0.4
+            },
+            {
+                "Types of gambling": "Keno",
+                "Year": 2019,
+                "Value": 0.3
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2001,
+                "Value": 0.1
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2002,
+                "Value": 0.1
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2003,
+                "Value": 0.1
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2004,
+                "Value": 0.1
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2005,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2006,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2007,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2008,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2009,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2010,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2011,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2012,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2013,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2014,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2015,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2016,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2017,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2018,
+                "Value": 0
+            },
+            {
+                "Types of gambling": "Other",
+                "Year": 2019,
+                "Value": 0
+            }
+        ]
+    },
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "Year",
+            "type": "ordinal",
+            "title": "Year"
+        },
+        "y": {
+            "field": "Value",
+            "type": "quantitative",
+            "title": "Value"
+        },
+        "color": {
+            "field": "Types of gambling",
+            "type": "nominal",
+            "title": "Gambling Type"
+        }
+    },
+    "title": "Types of Gambling Over the Years",
+    "width": 800
+}

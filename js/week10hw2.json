@@ -1,0 +1,657 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "data": {
+        "values": [
+            {
+                "Year": 2001,
+                "Type of Gambling": "Any Gambling",
+                "Value": 22.9
+            },
+            {
+                "Year": 2002,
+                "Type of Gambling": "Any Gambling",
+                "Value": 22.9
+            },
+            {
+                "Year": 2003,
+                "Type of Gambling": "Any Gambling",
+                "Value": 23.5
+            },
+            {
+                "Year": 2004,
+                "Type of Gambling": "Any Gambling",
+                "Value": 23.9
+            },
+            {
+                "Year": 2005,
+                "Type of Gambling": "Any Gambling",
+                "Value": 24.2
+            },
+            {
+                "Year": 2006,
+                "Type of Gambling": "Any Gambling",
+                "Value": 24.2
+            },
+            {
+                "Year": 2007,
+                "Type of Gambling": "Any Gambling",
+                "Value": 23.3
+            },
+            {
+                "Year": 2008,
+                "Type of Gambling": "Any Gambling",
+                "Value": 23.8
+            },
+            {
+                "Year": 2009,
+                "Type of Gambling": "Any Gambling",
+                "Value": 22.5
+            },
+            {
+                "Year": 2010,
+                "Type of Gambling": "Any Gambling",
+                "Value": 23.0
+            },
+            {
+                "Year": 2011,
+                "Type of Gambling": "Any Gambling",
+                "Value": 23.8
+            },
+            {
+                "Year": 2012,
+                "Type of Gambling": "Any Gambling",
+                "Value": 23.5
+            },
+            {
+                "Year": 2013,
+                "Type of Gambling": "Any Gambling",
+                "Value": 23.5
+            },
+            {
+                "Year": 2014,
+                "Type of Gambling": "Any Gambling",
+                "Value": 24.8
+            },
+            {
+                "Year": 2015,
+                "Type of Gambling": "Any Gambling",
+                "Value": 25.4
+            },
+            {
+                "Year": 2016,
+                "Type of Gambling": "Any Gambling",
+                "Value": 24.9
+            },
+            {
+                "Year": 2017,
+                "Type of Gambling": "Any Gambling",
+                "Value": 25.8
+            },
+            {
+                "Year": 2018,
+                "Type of Gambling": "Any Gambling",
+                "Value": 25.9
+            },
+            {
+                "Year": 2019,
+                "Type of Gambling": "Any Gambling",
+                "Value": 21.2
+            },
+            {
+                "Year": 2001,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 13.6
+            },
+            {
+                "Year": 2002,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 13.5
+            },
+            {
+                "Year": 2003,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 13.8
+            },
+            {
+                "Year": 2004,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 14.3
+            },
+            {
+                "Year": 2005,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 14.2
+            },
+            {
+                "Year": 2006,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 14.1
+            },
+            {
+                "Year": 2007,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 13.1
+            },
+            {
+                "Year": 2008,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 13.1
+            },
+            {
+                "Year": 2009,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 12.5
+            },
+            {
+                "Year": 2010,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 12.6
+            },
+            {
+                "Year": 2011,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 12.6
+            },
+            {
+                "Year": 2012,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 12.2
+            },
+            {
+                "Year": 2013,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 12.2
+            },
+            {
+                "Year": 2014,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 12.6
+            },
+            {
+                "Year": 2015,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 12.9
+            },
+            {
+                "Year": 2016,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 12.7
+            },
+            {
+                "Year": 2017,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 12.9
+            },
+            {
+                "Year": 2018,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 12.9
+            },
+            {
+                "Year": 2019,
+                "Type of Gambling": "Gambling Machines",
+                "Value": 10.2
+            },
+            {
+                "Year": 2001,
+                "Type of Gambling": "Wagering",
+                "Value": 3.0
+            },
+            {
+                "Year": 2002,
+                "Type of Gambling": "Wagering",
+                "Value": 3.1
+            },
+            {
+                "Year": 2003,
+                "Type of Gambling": "Wagering",
+                "Value": 3.2
+            },
+            {
+                "Year": 2004,
+                "Type of Gambling": "Wagering",
+                "Value": 3.3
+            },
+            {
+                "Year": 2005,
+                "Type of Gambling": "Wagering",
+                "Value": 3.3
+            },
+            {
+                "Year": 2006,
+                "Type of Gambling": "Wagering",
+                "Value": 3.4
+            },
+            {
+                "Year": 2007,
+                "Type of Gambling": "Wagering",
+                "Value": 3.3
+            },
+            {
+                "Year": 2008,
+                "Type of Gambling": "Wagering",
+                "Value": 3.5
+            },
+            {
+                "Year": 2009,
+                "Type of Gambling": "Wagering",
+                "Value": 3.6
+            },
+            {
+                "Year": 2010,
+                "Type of Gambling": "Wagering",
+                "Value": 3.6
+            },
+            {
+                "Year": 2011,
+                "Type of Gambling": "Wagering",
+                "Value": 3.8
+            },
+            {
+                "Year": 2012,
+                "Type of Gambling": "Wagering",
+                "Value": 3.8
+            },
+            {
+                "Year": 2013,
+                "Type of Gambling": "Wagering",
+                "Value": 3.9
+            },
+            {
+                "Year": 2014,
+                "Type of Gambling": "Wagering",
+                "Value": 4.1
+            },
+            {
+                "Year": 2015,
+                "Type of Gambling": "Wagering",
+                "Value": 4.3
+            },
+            {
+                "Year": 2016,
+                "Type of Gambling": "Wagering",
+                "Value": 4.6
+            },
+            {
+                "Year": 2017,
+                "Type of Gambling": "Wagering",
+                "Value": 5.1
+            },
+            {
+                "Year": 2018,
+                "Type of Gambling": "Wagering",
+                "Value": 5.1
+            },
+            {
+                "Year": 2019,
+                "Type of Gambling": "Wagering",
+                "Value": 4.6
+            },
+            {
+                "Year": 2001,
+                "Type of Gambling": "Casino",
+                "Value": 3.9
+            },
+            {
+                "Year": 2002,
+                "Type of Gambling": "Casino",
+                "Value": 3.8
+            },
+            {
+                "Year": 2003,
+                "Type of Gambling": "Casino",
+                "Value": 3.9
+            },
+            {
+                "Year": 2004,
+                "Type of Gambling": "Casino",
+                "Value": 3.7
+            },
+            {
+                "Year": 2005,
+                "Type of Gambling": "Casino",
+                "Value": 4.0
+            },
+            {
+                "Year": 2006,
+                "Type of Gambling": "Casino",
+                "Value": 4.1
+            },
+            {
+                "Year": 2007,
+                "Type of Gambling": "Casino",
+                "Value": 4.1
+            },
+            {
+                "Year": 2008,
+                "Type of Gambling": "Casino",
+                "Value": 4.3
+            },
+            {
+                "Year": 2009,
+                "Type of Gambling": "Casino",
+                "Value": 4.3
+            },
+            {
+                "Year": 2010,
+                "Type of Gambling": "Casino",
+                "Value": 4.4
+            },
+            {
+                "Year": 2011,
+                "Type of Gambling": "Casino",
+                "Value": 4.7
+            },
+            {
+                "Year": 2012,
+                "Type of Gambling": "Casino",
+                "Value": 4.7
+            },
+            {
+                "Year": 2013,
+                "Type of Gambling": "Casino",
+                "Value": 4.8
+            },
+            {
+                "Year": 2014,
+                "Type of Gambling": "Casino",
+                "Value": 5.6
+            },
+            {
+                "Year": 2015,
+                "Type of Gambling": "Casino",
+                "Value": 5.5
+            },
+            {
+                "Year": 2016,
+                "Type of Gambling": "Casino",
+                "Value": 5.0
+            },
+            {
+                "Year": 2017,
+                "Type of Gambling": "Casino",
+                "Value": 5.3
+            },
+            {
+                "Year": 2018,
+                "Type of Gambling": "Casino",
+                "Value": 4.9
+            },
+            {
+                "Year": 2019,
+                "Type of Gambling": "Casino",
+                "Value": 3.5
+            },
+            {
+                "Year": 2001,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.2
+            },
+            {
+                "Year": 2002,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.3
+            },
+            {
+                "Year": 2003,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.3
+            },
+            {
+                "Year": 2004,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.3
+            },
+            {
+                "Year": 2005,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.3
+            },
+            {
+                "Year": 2006,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.3
+            },
+            {
+                "Year": 2007,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.4
+            },
+            {
+                "Year": 2008,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.5
+            },
+            {
+                "Year": 2009,
+                "Type of Gambling": "Lotteries",
+                "Value": 1.8
+            },
+            {
+                "Year": 2010,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.1
+            },
+            {
+                "Year": 2011,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.3
+            },
+            {
+                "Year": 2012,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.4
+            },
+            {
+                "Year": 2013,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.2
+            },
+            {
+                "Year": 2014,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.2
+            },
+            {
+                "Year": 2015,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.3
+            },
+            {
+                "Year": 2016,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.1
+            },
+            {
+                "Year": 2017,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.2
+            },
+            {
+                "Year": 2018,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.6
+            },
+            {
+                "Year": 2019,
+                "Type of Gambling": "Lotteries",
+                "Value": 2.6
+            },
+            {
+                "Year": 2001,
+                "Type of Gambling": "Keno",
+                "Value": 0.2
+            },
+            {
+                "Year": 2002,
+                "Type of Gambling": "Keno",
+                "Value": 0.2
+            },
+            {
+                "Year": 2003,
+                "Type of Gambling": "Keno",
+                "Value": 0.3
+            },
+            {
+                "Year": 2004,
+                "Type of Gambling": "Keno",
+                "Value": 0.3
+            },
+            {
+                "Year": 2005,
+                "Type of Gambling": "Keno",
+                "Value": 0.3
+            },
+            {
+                "Year": 2006,
+                "Type of Gambling": "Keno",
+                "Value": 0.3
+            },
+            {
+                "Year": 2007,
+                "Type of Gambling": "Keno",
+                "Value": 0.3
+            },
+            {
+                "Year": 2008,
+                "Type of Gambling": "Keno",
+                "Value": 0.3
+            },
+            {
+                "Year": 2009,
+                "Type of Gambling": "Keno",
+                "Value": 0.3
+            },
+            {
+                "Year": 2010,
+                "Type of Gambling": "Keno",
+                "Value": 0.3
+            },
+            {
+                "Year": 2011,
+                "Type of Gambling": "Keno",
+                "Value": 0.4
+            },
+            {
+                "Year": 2012,
+                "Type of Gambling": "Keno",
+                "Value": 0.4
+            },
+            {
+                "Year": 2013,
+                "Type of Gambling": "Keno",
+                "Value": 0.4
+            },
+            {
+                "Year": 2014,
+                "Type of Gambling": "Keno",
+                "Value": 0.4
+            },
+            {
+                "Year": 2015,
+                "Type of Gambling": "Keno",
+                "Value": 0.4
+            },
+            {
+                "Year": 2016,
+                "Type of Gambling": "Keno",
+                "Value": 0.4
+            },
+            {
+                "Year": 2017,
+                "Type of Gambling": "Keno",
+                "Value": 0.4
+            },
+            {
+                "Year": 2018,
+                "Type of Gambling": "Keno",
+                "Value": 0.4
+            },
+            {
+                "Year": 2019,
+                "Type of Gambling": "Keno",
+                "Value": 0.3
+            }
+        ]
+    },
+    "selection": {
+        "Year Selector": {
+            "type": "single",
+            "fields": [
+                "Year"
+            ],
+            "init": {
+                "Year": 2019
+            },
+            "bind": {
+                "input": "select",
+                "options": [
+                    2001,
+                    2002,
+                    2003,
+                    2004,
+                    2005,
+                    2006,
+                    2007,
+                    2008,
+                    2009,
+                    2010,
+                    2011,
+                    2012,
+                    2013,
+                    2014,
+                    2015,
+                    2016,
+                    2017,
+                    2018,
+                    2019
+                ],
+                "name": "Filter by Year "
+            }
+        }
+    },
+    "encoding": {
+        "x": {
+            "field": "Type of Gambling",
+            "type": "nominal"
+        },
+        "y": {
+            "field": "Value",
+            "type": "quantitative"
+        },
+        "color": {
+            "field": "Type of Gambling",
+            "type": "nominal"
+        },
+        "tooltip": [
+            {
+                "field": "Year",
+                "type": "ordinal",
+                "title": "Year"
+            },
+            {
+                "field": "Type of Gambling",
+                "type": "nominal",
+                "title": "Gambling Type"
+            },
+            {
+                "field": "Value",
+                "type": "quantitative",
+                "format": ".1f",
+                "aggregate": "mean",
+                "title": "Net loss ($ billion)"
+            }
+        ]
+    },
+    "transform": [
+        {
+            "filter": {
+                "selection": "Year Selector"
+            }
+        }
+    ],
+    "mark": "bar",
+    "title": "Total gambling net losses ($ billion) in Australia ",
+    "width": 400,
+    "height": 400
+}
